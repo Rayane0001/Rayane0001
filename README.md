@@ -1,4 +1,4 @@
-<h1>Salut, je suis Rayane! <br/>
+<h1>Bonjour, je suis Rayane! <br/>
 <a href="https://www.linkedin.com/in/rayane-rousseau-595b82326/" target="_blank">Étudiant en seconde année de BUT informatique</a>
 </h1>
 
