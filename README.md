@@ -11,33 +11,39 @@
 
 <h3>👨‍💻 Développement d'Applications:</h3>
 <ul>
-  <li>Développement d'applications mobiles et desktop</li>
-  <li>Utilisation de langages tels que Python, Java, C#</li>
+  <li>Conception d’applications via Gradle avec implémentation d’algorithmes comme <a href="https://github.com/ton-compte/DikjstraVilles" target="_blank">Dijkstra</a>.</li>
+  <li>Application de rencontre, développée avec Ionic (projet personnel en cours).</li>
+  <li>Développement et utilisation d’API sur une application Flask.</li>
 </ul>
 
 <h3>🧰 Développement de Logiciels:</h3>
 <ul>
-  <li>Création de logiciels robustes et maintenables</li>
-  <li>Bonnes pratiques de conception et de programmation</li>
+  <li>Logiciel de gestion de dossiers médicaux en Java (orienté objet) via Gradle.</li>
+  <li>Projets en Java : 2048, Juste Prix, convertisseur de devises, etc.</li>
 </ul>
 
 <h3>🎮 Développement de Jeux Vidéo:</h3>
 <ul>
-  <li>Utilisation d'Unity pour des prototypes de jeux</li>
-  <li>Conception de gameplay immersif</li>
+  <li>Autodidacte sur Unity : apprentissage via Unity Learn.</li>
+  <li>Création d’une carte et plugins en Lua pour Roblox, recréation d'un lieu de One Piece (projet personnel).</li>
 </ul>
 
 <h3>📄 Développement Web:</h3>
 <ul>
-  <li>HTML, CSS, JavaScript, et frameworks comme React</li>
-  <li>Création de sites web dynamiques et interactifs</li>
+  <li>Site web fictif avec charte graphique personnalisée (HTML, CSS).</li>
+  <li>Contribution à un site web/application avec JavaScript, TypeScript, HTML, CSS, Ionic (projet personnel).</li>
 </ul>
 
-<h3>💾 Base de données:</h3>
+<h3>💾 Base de Données:</h3>
 <ul>
-  <li>Conception et gestion de bases de données SQL</li>
-  <li>Optimisation des requêtes et structuration des données</li>
+  <li>Création d’une base de données en PostgreSQL pour analyses statistiques, avec un focus sur la qualité et la sécurité des données.</li>
 </ul>
+
+<h3>🤖 Intelligence Artificielle:</h3>
+<ul>
+  <li>Apprentissage autodidacte via IBM SkillsBuild et HackerRank.</li>
+</ul>
+
 
 <h2>🛠️ Compétences:</h2>
 
