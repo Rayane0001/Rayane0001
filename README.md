@@ -20,6 +20,8 @@
 <ul>
   <li>Logiciel de gestion de dossiers médicaux en Java (orienté objet) via Gradle.</li>
   <li>Projets en Java : 2048, Juste Prix, convertisseur de devises, etc.</li>
+  <li><a href="https://gitlab.univ-artois.fr/sae-gra1/lensjudge" target="_blank">LensJudge</a> : Outil de vérification automatique de solutions pour les projets de programmation. Il permet de compiler, exécuter et vérifier les programmes soumis en fonction des tests et configurations fournis.</li>
+
 </ul>
 
 <h3>🎮 Développement de Jeux Vidéo:</h3>
