@@ -11,7 +11,7 @@
 
 <h3>👨‍💻 Développement d'Applications:</h3>
 <ul>
-  <li>Conception d’applications via Gradle avec implémentation d’algorithmes comme <a href="https://github.com/ton-compte/DikjstraVilles" target="_blank">Dijkstra</a>.</li>
+  <li>Conception d’applications via Gradle avec implémentation d’algorithmes comme <a href="https://github.com/Rayane0001/DikjstraVilles" target="_blank">Dijkstra</a>.</li>
   <li>Application de rencontre, développée avec Ionic (projet personnel en cours).</li>
   <li>Développement et utilisation d’API sur une application Flask.</li>
 </ul>
