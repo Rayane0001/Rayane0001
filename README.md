@@ -26,7 +26,7 @@
 <h3>🎮 Développement de Jeux Vidéo:</h3>
 <ul>
   <li>Autodidacte sur Unity : apprentissage via Unity Learn.</li>
-  <li>Création d’une carte et plugins en Lua pour Roblox, recréation d'un lieu de One Piece (projet personnel). <a href="https://onepiece.fandom.com/fr/wiki/Arlong_Par" target="_blank">Voir le lieu d'inspiration</a>.</li>
+  <li>Création d’une carte et plugins en Lua pour Roblox, recréation d'un lieu de One Piece (projet personnel). <a href="https://onepiece.fandom.com/fr/wiki/Arlong_Park" target="_blank">Voir le lieu d'inspiration</a>.</li>
 </ul>
 
 <h3>📄 Développement Web:</h3>
