@@ -18,16 +18,15 @@
 
 <h3>🧰 Développement de Logiciels:</h3>
 <ul>
-  <li>Logiciel de gestion de dossiers médicaux en Java (orienté objet) via Gradle.</li>
-  <li>Projets en Java : 2048, Juste Prix, convertisseur de devises, etc.</li>
+  <li><a href="https://github.com/Rayane0001/hopital-java-oriente-objet" target="_blank">Logiciel de gestion de dossiers médicaux</a> en Java (orienté objet) via Gradle.</li>
+  <li>Projets en Java : <a href="https://github.com/Rayane0001/2028-game-JavaFX" target="_blank">2048</a>, <a href="https://github.com/Rayane0001/le-juste-prix" target="_blank">Juste Prix</a>, <a href="https://github.com/Rayane0001/convertisseur-JavaFX" target="_blank">convertisseur de devises</a>, etc.</li>
   <li><a href="https://gitlab.univ-artois.fr/sae-gra1/lensjudge" target="_blank">LensJudge</a> : Outil de vérification automatique de solutions pour les projets de programmation. Il permet de compiler, exécuter et vérifier les programmes soumis en fonction des tests et configurations fournis.</li>
-
 </ul>
 
 <h3>🎮 Développement de Jeux Vidéo:</h3>
 <ul>
   <li>Autodidacte sur Unity : apprentissage via Unity Learn.</li>
-  <li>Création d’une carte et plugins en Lua pour Roblox, recréation d'un lieu de One Piece (projet personnel).</li>
+  <li>Création d’une carte et plugins en Lua pour Roblox, recréation d'un lieu de One Piece (projet personnel). <a href="https://onepiece.fandom.com/fr/wiki/Arlong_Par" target="_blank">Voir le lieu d'inspiration</a>.</li>
 </ul>
 
 <h3>📄 Développement Web:</h3>
@@ -38,14 +37,13 @@
 
 <h3>💾 Base de Données:</h3>
 <ul>
-  <li>Création d’une base de données en PostgreSQL pour analyses statistiques, avec un focus sur la qualité et la sécurité des données.</li>
+  <li><a href="https://github.com/Rayane0001/SAE_BDD_VRAI" target="_blank">Création d’une base de données</a> en PostgreSQL pour analyses statistiques, avec un focus sur la qualité et la sécurité des données.</li>
 </ul>
 
 <h3>🤖 Intelligence Artificielle:</h3>
 <ul>
-  <li>Apprentissage autodidacte via IBM SkillsBuild et HackerRank.</li>
+  <li>Apprentissage autodidacte via <a href="https://skillsbuild.org/" target="_blank">IBM SkillsBuild</a>, <a href="https://www.hackerrank.com/" target="_blank">HackerRank</a>, et YouTube.</li>
 </ul>
-
 
 <h2>🛠️ Compétences:</h2>
 
