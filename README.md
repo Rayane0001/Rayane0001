@@ -142,7 +142,4 @@
   <a href="mailto:rousseau.rayane@gmail.com">
     <img align="left" alt="Email" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/gmail.svg" /> 
   </a>
-  <a href="https://www.linkedin.com/in/rayane-rousseau-595b82326/" target="_blank">
-    <img align="left" alt="LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" /> 
-  </a>
 </p>
