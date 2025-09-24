@@ -1,145 +1,152 @@
-<h1>Bonjour, je suis Rayane! <br/>
-<a href="https://www.linkedin.com/in/rayane-rousseau-595b82326/" target="_blank">Étudiant en seconde année de BUT informatique</a>
-</h1>
+# Hi there, I'm Rayane! 👋
 
-<h2>💡 Aujourd'hui ➔ <em>Toujours en train d'apprendre et de mener de nouveaux projets</em></h2>
-<p>
-  Je m'efforce constamment de me perfectionner en explorant de nouvelles technologies et en développant des projets innovants. Mon objectif est de m'adapter aux tendances actuelles et futures du développement, tout en consolidant mes compétences existantes.
-</p>
+<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=Rayane0001.Rayane0001" />
 
-<h2>🔨 Projets:</h2>
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&color=00D4FF&center=true&vCenter=true&width=600&height=70&duration=4000&lines=Full-Stack+Developer;Machine+Learning+Enthusiast;Problem+Solver;Always+Learning" />
+</div>
 
-<h3>👨‍💻 Développement d'Applications:</h3>
-<ul>
-  <li>Conception d’applications via Gradle avec implémentation d’algorithmes comme <a href="https://github.com/Rayane0001/DikjstraVilles" target="_blank">Dijkstra</a>.</li>
-  <li>Application de rencontre, développée avec Ionic (projet personnel en cours).</li>
-  <li>Développement et utilisation d’API sur une application Flask.</li>
-</ul>
+<h3 align="center">Computer Science Student from France 🇫🇷</h3>
 
-<h3>🧰 Développement de Logiciels:</h3>
-<ul>
-  <li><a href="https://github.com/Rayane0001/hopital-java-oriente-objet" target="_blank">Logiciel de gestion de dossiers médicaux</a> en Java (orienté objet) via Gradle.</li>
-  <li>Projets en Java : <a href="https://github.com/Rayane0001/2028-game-JavaFX" target="_blank">2048</a>, <a href="https://github.com/Rayane0001/le-juste-prix" target="_blank">Juste Prix</a>, <a href="https://github.com/Rayane0001/convertisseur-JavaFX" target="_blank">convertisseur de devises</a>, etc.</li>
-  <li><a href="https://gitlab.univ-artois.fr/sae-gra1/lensjudge" target="_blank">LensJudge</a> : Outil de vérification automatique de solutions pour les projets de programmation. Il permet de compiler, exécuter et vérifier les programmes soumis en fonction des tests et configurations fournis.</li>
-</ul>
+<div align="center">
+  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rayane-rousseau-595b82326/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://portfolio-rayane.vercel.app)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rousseau.rayane@gmail.com)
 
-<h3>🎮 Développement de Jeux Vidéo:</h3>
-<ul>
-  <li>Autodidacte sur Unity : apprentissage via <a href="https://learn.unity.com/" target="_blank">Unity Learn</a>. </li>
-  <li>Création d’une carte et plugins en Lua pour Roblox, recréation d'un lieu de One Piece (projet personnel). <a href="https://onepiece.fandom.com/fr/wiki/Arlong_Park" target="_blank">Voir le lieu d'inspiration</a>.</li>
-</ul>
+</div>
 
-<h3>📄 Développement Web:</h3>
-<ul>
-  <li>Site web fictif avec charte graphique personnalisée (HTML, CSS).</li>
-  <li>Contribution à un site web/application avec JavaScript, TypeScript, HTML, CSS, Ionic (projet personnel).</li>
-</ul>
+<br/>
 
-<h3>💾 Base de Données:</h3>
-<ul>
-  <li><a href="https://github.com/Rayane0001/SAE_BDD_VRAI" target="_blank">Création d’une base de données</a> en PostgreSQL pour analyses statistiques, avec un focus sur la qualité et la sécurité des données.</li>
-</ul>
+<div align="center">
+ 
+🔭 **L3 Computer Science Student**
 
-<h3>🤖 Intelligence Artificielle:</h3>
-<ul>
-  <li>Apprentissage autodidacte via <a href="https://skillsbuild.org/" target="_blank">IBM SkillsBuild</a>, <a href="https://www.hackerrank.com/" target="_blank">HackerRank</a>, et YouTube.</li>
-</ul>
+🌱 Learning **Machine Learning** & **Full-Stack Development**
 
-<h2>🛠️ Compétences:</h2>
+👯 Open to collaborate on **innovative projects**
 
-<h3>🌐 Langages de Programmation:</h3>
-<ul>
-  <li>
-    <img align="left" alt="Python" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/python.svg" />
-    <strong>Python</strong>, 
-    <img align="left" alt="Java" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/java.svg" />
-    <strong>Java</strong>, 
-    <img align="left" alt="C#" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/csharp.svg" />
-    <strong>C#</strong>, 
-    <img align="left" alt="Lua" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/lua.svg" />
-    <strong>Lua</strong>, 
-    <img align="left" alt="SQL" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/postgresql.svg" />
-    <strong>SQL</strong>, 
-    <img align="left" alt="JavaScript" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/javascript.svg" />
-    <strong>JavaScript</strong>, 
-    <img align="left" alt="TypeScript" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/typescript.svg" />
-    <strong>TypeScript</strong>
-  </li>
-</ul>
+💬 Ask me about **Python**, **JavaScript**, **ML**, and **Web Dev**
 
-<h3>📱 Développement d'Applications:</h3>
-<ul>
-  <li>
-    <img align="left" alt="Object-Oriented" width="22px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
-    Conception orientée objet, Algorithmes, Gradle, Ionic, Angular, Debugging
-  </li>
-</ul>
+</div>
 
-<h3>💻 Développement Web:</h3>
-<ul>
-  <li>
-    <img align="left" alt="HTML" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/html5.svg" />
-    <strong>HTML</strong>, 
-    <img align="left" alt="CSS" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/css3.svg" />
-    <strong>CSS</strong>, 
-    <img align="left" alt="JavaScript" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/javascript.svg" />
-    <strong>JavaScript</strong>, 
-    <img align="left" alt="React.js" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/react.svg" />
-    <strong>React.js</strong>, 
-    <img align="left" alt="TypeScript" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/typescript.svg" />
-    <strong>TypeScript</strong>, 
-    <img align="left" alt="PHP" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/php.svg" />
-    <strong>PHP</strong>, 
-    <img align="left" alt="Laravel" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/laravel.svg" />
-    <strong>Laravel</strong>, 
-    <img align="left" alt="Svelte" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/svelte.svg" />
-    <strong>Svelte</strong>
-  </li>
-</ul>
+---
 
-<h3>🎮 Développement de Jeux Vidéo:</h3>
-<ul>
-  <li>
-    <img align="left" alt="Unity" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/unity.svg" />
-    <strong>Unity</strong>, 
-    <img align="left" alt="Roblox Studio" width="22px" src="https://img.icons8.com/color/48/roblox.png" />
-    <strong>Roblox Studio</strong>, Scripting Lua
-  </li>
-</ul>
+## 🛠️ Languages & Frameworks & Tools
 
-<h3>💾 Bases de Données:</h3>
-<ul>
-  <li>
-    <img align="left" alt="SQL" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/postgresql.svg" />
-    Modélisation, SQL, PostgreSQL
-  </li>
-</ul>
+<div align="center">
+    <img src="https://skillicons.dev/icons?i=python,js,ts,java,kotlin,php,html,css" />
+    <br/>
+    <img src="https://skillicons.dev/icons?i=react,angular,svelte,laravel,flask,nodejs,docker,git" />
+    <br/>
+    <img src="https://skillicons.dev/icons?i=postgresql,mysql,firebase,linux,vscode,github,gitlab,figma" />
+</div>
 
-<h3>🔒 Systèmes & Réseaux:</h3>
-<ul>
-  <li>
-    <img align="left" alt="Linux" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linux.svg" />
-    Unix/Linux, TCP/IP, Sécurité réseau
-  </li>
-</ul>
+<div align="center">
+  <br/>
+  <code><img title="Machine Learning" height="25" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/tensorflow.svg"></code>
+  <code><img title="Data Science" height="25" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/pandas.svg"></code>
+  <code><img title="CI/CD" height="25" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/gitlab.svg"></code>
+  <code><img title="Problem Solving" height="25" src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-problem-solving-customer-service-flaticons-lineal-color-flat-icons.png"></code>
+</div>
 
-<h3>📊 Gestion de Projet:</h3>
-<ul>
-  <li>
-    <img align="left" alt="Agile" width="22px" src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-agile-computer-programming-flaticons-lineal-color-flat-icons.png" />
-    Méthodologies agiles, Travail en équipe, Communication, Gestion du temps, Git
-  </li>
-</ul>
+---
 
-<h3>🌍 Langues:</h3>
-<ul>
-  <li>🇫🇷 Bilingue (Français et Anglais) 🇬🇧</li>
-</ul>
+## ⚡ GitHub Stats
 
-<h2> 🤳 Prenez contact avec moi:</h2>
+<div align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Rayane0001&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=10" alt="GitHub Stats" />
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Rayane0001&count_private=true&theme=react&border_radius=10" alt="GitHub Streak" />
+</div>
 
-<p>
-  <a href="mailto:rousseau.rayane@gmail.com">
-    <img align="left" alt="Email" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/gmail.svg" /> 
-  </a>
-</p>
+<div align="center">
+  <br/>
+  <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rayane0001&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5" alt="Most Used Languages" />
+</div>
+
+---
+
+## 📈 Activity Graph
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Rayane0001&theme=react-dark&bg_color=20232a&hide_border=true" width="100%"/>
+</div>
+
+---
+
+## 🐍 Contribution Snake
+
+<div align="center">
+  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/Rayane0001/Rayane0001/output/github-contribution-grid-snake.svg" />
+</div>
+
+---
+
+## 👨‍💻 Featured Repositories
+
+<div align="center">
+  
+<table>
+<tr>
+<td width="50%">
+
+[![World Happiness Analysis](https://github-readme-stats.vercel.app/api/pin/?username=Rayane0001&repo=world-happiness-analysis&theme=react&border_color=61dafb&border_radius=10)](https://github.com/Rayane0001/world-happiness-analysis)
+
+</td>
+<td width="50%">
+
+[![Predictive Combat Arena](https://github-readme-stats.vercel.app/api/pin/?username=Rayane0001&repo=Predictive-Combat-Arena&theme=react&border_color=61dafb&border_radius=10)](https://github.com/Rayane0001/Predictive-Combat-Arena)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+[![Lens Judge Platform](https://github-readme-stats.vercel.app/api/pin/?username=Rayane0001&repo=Lens-Judge&theme=react&border_color=61dafb&border_radius=10)](https://github.com/Rayane0001/Lens-Judge)
+
+</td>
+<td width="50%">
+
+[![Car Rental API](https://github-readme-stats.vercel.app/api/pin/?username=Rayane0001&repo=location-voiture-api&theme=react&border_color=61dafb&border_radius=10)](https://github.com/Rayane0001/location-voiture-api)
+
+</td>
+</tr>
+</table>
+
+<h4>
+  <a href="https://github.com/Rayane0001?tab=repositories" title="Show Repositories">🔎 Show More Repositories 🔍</a>
+</h4>
+
+</div>
+
+---
+
+## 🎮 Interactive Tetris Game!
+
+<div align="center">
+
+**Play a quick game while browsing my profile!**
+
+![Tetris Game](./tetris-game.svg)
+
+*Click START to play! Use A/D to move, S to drop, and click to rotate pieces.*
+
+</div>
+
+---
+
+## 📫 Let's Connect!
+
+<div align="center">
+
+**🎯 Looking for:** Summer Internship (worldwide) & Apprenticeship in France (Paris/Lille)
+
+**✨ Let's build something amazing together!**
+
+</div>
+
+---
+
+<div align="center" width="100%">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&text=Thanks%20for%20visiting!&fontSize=24&fontAlignY=70&animation=twinkling" />
+</div>
