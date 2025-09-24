@@ -70,16 +70,7 @@
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Rayane0001&theme=react-dark&bg_color=20232a&hide_border=true" width="100%"/>
-</div>
-
----
-
-## 🐍 Contribution Snake
-
-<div align="center">
-  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/Rayane0001/Rayane0001/output/github-contribution-grid-snake.svg" />
-</div>
-
+</div
 ---
 
 ## 👨‍💻 Featured Repositories
