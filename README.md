@@ -20,13 +20,11 @@
 
 <div align="center">
  
-🔭 **L3 Computer Science Student**
+🔭 **3rd year Computer Science Student**
 
 🌱 Learning **Machine Learning** & **Full-Stack Development**
 
-👯 Open to collaborate on **innovative projects**
-
-💬 Ask me about **Python**, **JavaScript**, **ML**, and **Web Dev**
+👯 Open to collaborate on **innovative projects** & **hackathons**
 
 </div>
 
