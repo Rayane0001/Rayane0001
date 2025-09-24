@@ -1,0 +1,276 @@
+<svg width="400" height="500" viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .game-board {
+      fill: #1a1a2e;
+      stroke: #16213e;
+      stroke-width: 2;
+    }
+    .grid-line {
+      stroke: #16213e;
+      stroke-width: 0.5;
+      opacity: 0.3;
+    }
+    .tetris-block {
+      stroke: #000;
+      stroke-width: 1;
+    }
+    .block-i { fill: #00f5ff; }
+    .block-o { fill: #ffff00; }
+    .block-t { fill: #800080; }
+    .block-s { fill: #00ff00; }
+    .block-z { fill: #ff0000; }
+    .block-j { fill: #0000ff; }
+    .block-l { fill: #ffa500; }
+    
+    .ui-text {
+      font-family: 'Courier New', monospace;
+      fill: #00f5ff;
+      font-weight: bold;
+    }
+    
+    .title {
+      font-size: 28px;
+      text-anchor: middle;
+    }
+    
+    .score {
+      font-size: 16px;
+    }
+    
+    .instructions {
+      font-size: 12px;
+      fill: #a0a0a0;
+    }
+    
+    .start-btn {
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    
+    .start-btn:hover .btn-bg {
+      fill: #00a0a0;
+    }
+    
+    .btn-bg {
+      fill: #008080;
+      stroke: #00f5ff;
+      stroke-width: 2;
+      rx: 5;
+    }
+    
+    .btn-text {
+      fill: white;
+      font-family: 'Courier New', monospace;
+      font-size: 14px;
+      text-anchor: middle;
+      font-weight: bold;
+    }
+    
+    .falling-piece {
+      animation: fall 2s linear infinite;
+    }
+    
+    @keyframes fall {
+      from { transform: translateY(-40px); }
+      to { transform: translateY(400px); }
+    }
+    
+    .game-over {
+      fill: #ff4444;
+      font-size: 20px;
+      text-anchor: middle;
+      font-weight: bold;
+      opacity: 0;
+      animation: flash 1s ease-in-out infinite alternate;
+    }
+    
+    @keyframes flash {
+      from { opacity: 0.3; }
+      to { opacity: 1; }
+    }
+    
+    .line-clear {
+      animation: lineClear 0.5s ease-out;
+    }
+    
+    @keyframes lineClear {
+      0% { opacity: 1; }
+      50% { opacity: 0.3; fill: white; }
+      100% { opacity: 0; }
+    }
+  </style>
+
+  <!-- Game Board Background -->
+  <rect x="50" y="80" width="300" height="400" class="game-board"/>
+  
+  <!-- Grid Lines -->
+  <g class="grid-lines">
+    <!-- Vertical lines -->
+    <line x1="80" y1="80" x2="80" y2="480" class="grid-line"/>
+    <line x1="110" y1="80" x2="110" y2="480" class="grid-line"/>
+    <line x1="140" y1="80" x2="140" y2="480" class="grid-line"/>
+    <line x1="170" y1="80" x2="170" y2="480" class="grid-line"/>
+    <line x1="200" y1="80" x2="200" y2="480" class="grid-line"/>
+    <line x1="230" y1="80" x2="230" y2="480" class="grid-line"/>
+    <line x1="260" y1="80" x2="260" y2="480" class="grid-line"/>
+    <line x1="290" y1="80" x2="290" y2="480" class="grid-line"/>
+    <line x1="320" y1="80" x2="320" y2="480" class="grid-line"/>
+    
+    <!-- Horizontal lines -->
+    <line x1="50" y1="100" x2="350" y2="100" class="grid-line"/>
+    <line x1="50" y1="120" x2="350" y2="120" class="grid-line"/>
+    <line x1="50" y1="140" x2="350" y2="140" class="grid-line"/>
+    <line x1="50" y1="160" x2="350" y2="160" class="grid-line"/>
+    <line x1="50" y1="180" x2="350" y2="180" class="grid-line"/>
+    <line x1="50" y1="200" x2="350" y2="200" class="grid-line"/>
+    <line x1="50" y1="220" x2="350" y2="220" class="grid-line"/>
+    <line x1="50" y1="240" x2="350" y2="240" class="grid-line"/>
+    <line x1="50" y1="260" x2="350" y2="260" class="grid-line"/>
+    <line x1="50" y1="280" x2="350" y2="280" class="grid-line"/>
+    <line x1="50" y1="300" x2="350" y2="300" class="grid-line"/>
+    <line x1="50" y1="320" x2="350" y2="320" class="grid-line"/>
+    <line x1="50" y1="340" x2="350" y2="340" class="grid-line"/>
+    <line x1="50" y1="360" x2="350" y2="360" class="grid-line"/>
+    <line x1="50" y1="380" x2="350" y2="380" class="grid-line"/>
+    <line x1="50" y1="400" x2="350" y2="400" class="grid-line"/>
+    <line x1="50" y1="420" x2="350" y2="420" class="grid-line"/>
+    <line x1="50" y1="440" x2="350" y2="440" class="grid-line"/>
+    <line x1="50" y1="460" x2="350" y2="460" class="grid-line"/>
+  </g>
+
+  <!-- Game Title -->
+  <text x="200" y="40" class="ui-text title">TETRIS</text>
+  
+  <!-- Score Display -->
+  <text x="60" y="65" class="ui-text score">Score: 0</text>
+  <text x="280" y="65" class="ui-text score">Lines: 0</text>
+
+  <!-- Placed Blocks (Static) -->
+  <g id="placed-blocks">
+    <!-- Bottom row -->
+    <rect x="50" y="460" width="30" height="20" class="tetris-block block-i"/>
+    <rect x="80" y="460" width="30" height="20" class="tetris-block block-o"/>
+    <rect x="110" y="460" width="30" height="20" class="tetris-block block-t"/>
+    <rect x="140" y="460" width="30" height="20" class="tetris-block block-s"/>
+    <rect x="170" y="460" width="30" height="20" class="tetris-block block-z"/>
+    <rect x="200" y="460" width="30" height="20" class="tetris-block block-j"/>
+    <rect x="230" y="460" width="30" height="20" class="tetris-block block-l"/>
+    <rect x="290" y="460" width="30" height="20" class="tetris-block block-i"/>
+    <rect x="320" y="460" width="30" height="20" class="tetris-block block-o"/>
+    
+    <!-- Second row -->
+    <rect x="50" y="440" width="30" height="20" class="tetris-block block-t"/>
+    <rect x="80" y="440" width="30" height="20" class="tetris-block block-s"/>
+    <rect x="170" y="440" width="30" height="20" class="tetris-block block-j"/>
+    <rect x="200" y="440" width="30" height="20" class="tetris-block block-l"/>
+    <rect x="290" y="440" width="30" height="20" class="tetris-block block-z"/>
+    <rect x="320" y="440" width="30" height="20" class="tetris-block block-i"/>
+    
+    <!-- Third row -->
+    <rect x="80" y="420" width="30" height="20" class="tetris-block block-o"/>
+    <rect x="170" y="420" width="30" height="20" class="tetris-block block-t"/>
+    <rect x="320" y="420" width="30" height="20" class="tetris-block block-s"/>
+    
+    <!-- Scattered blocks -->
+    <rect x="110" y="400" width="30" height="20" class="tetris-block block-j"/>
+    <rect x="230" y="380" width="30" height="20" class="tetris-block block-l"/>
+    <rect x="260" y="360" width="30" height="20" class="tetris-block block-i"/>
+  </g>
+
+  <!-- Falling Piece (T-piece) -->
+  <g id="falling-piece" class="falling-piece">
+    <rect x="170" y="180" width="30" height="20" class="tetris-block block-t"/>
+    <rect x="140" y="200" width="30" height="20" class="tetris-block block-t"/>
+    <rect x="170" y="200" width="30" height="20" class="tetris-block block-t"/>
+    <rect x="200" y="200" width="30" height="20" class="tetris-block block-t"/>
+  </g>
+
+  <!-- Next Piece Preview -->
+  <g id="next-piece">
+    <rect x="365" y="100" width="25" height="60" class="game-board"/>
+    <text x="377" y="95" class="ui-text instructions">Next</text>
+    <!-- L-piece preview -->
+    <rect x="370" y="110" width="8" height="8" class="tetris-block block-l"/>
+    <rect x="370" y="118" width="8" height="8" class="tetris-block block-l"/>
+    <rect x="370" y="126" width="8" height="8" class="tetris-block block-l"/>
+    <rect x="378" y="126" width="8" height="8" class="tetris-block block-l"/>
+  </g>
+
+  <!-- Game Controls -->
+  <g id="controls">
+    <text x="200" y="510" class="ui-text instructions" text-anchor="middle">
+      🎮 Click to rotate • A/D to move • S to drop
+    </text>
+    <text x="200" y="525" class="ui-text instructions" text-anchor="middle">
+      Build complete lines to clear them!
+    </text>
+  </g>
+
+  <!-- Interactive Start Button -->
+  <g id="start-button" class="start-btn">
+    <rect x="160" y="250" width="80" height="30" class="btn-bg"/>
+    <text x="200" y="270" class="btn-text">START</text>
+  </g>
+
+  <!-- Hidden Game Over Screen -->
+  <g id="game-over" style="opacity: 0;">
+    <rect x="80" y="200" width="240" height="100" fill="#000" stroke="#ff4444" stroke-width="2" rx="10" opacity="0.9"/>
+    <text x="200" y="230" class="game-over">GAME OVER</text>
+    <text x="200" y="250" class="ui-text instructions" text-anchor="middle">Thanks for playing!</text>
+    <text x="200" y="270" class="ui-text instructions" text-anchor="middle">Check out my real projects below 👇</text>
+  </g>
+
+  <!-- Interactive Elements -->
+  <script type="application/ecmascript">
+    <![CDATA[
+    let gameStarted = false;
+    let score = 0;
+    let lines = 0;
+    
+    function startGame() {
+      if (!gameStarted) {
+        gameStarted = true;
+        document.getElementById('start-button').style.opacity = '0';
+        
+        // Animate falling piece
+        const fallingPiece = document.getElementById('falling-piece');
+        fallingPiece.style.animation = 'fall 3s linear infinite';
+        
+        // Update score periodically
+        setTimeout(function() {
+          score += 100;
+          document.querySelector('.score').textContent = 'Score: ' + score;
+        }, 2000);
+        
+        setTimeout(function() {
+          lines += 1;
+          document.querySelector('.score').nextElementSibling.textContent = 'Lines: ' + lines;
+          
+          // Simulate line clear effect
+          const clearLine = document.querySelector('#placed-blocks rect');
+          if (clearLine) {
+            clearLine.classList.add('line-clear');
+          }
+        }, 4000);
+        
+        // Show game over after some time
+        setTimeout(function() {
+          document.getElementById('game-over').style.opacity = '1';
+          fallingPiece.style.animation = 'none';
+        }, 8000);
+      }
+    }
+    
+    // Add click event to start button
+    document.getElementById('start-button').addEventListener('click', startGame);
+    
+    // Add keyboard controls simulation
+    document.addEventListener('keydown', function(e) {
+      if (gameStarted && e.key.toLowerCase() === 's') {
+        const fallingPiece = document.getElementById('falling-piece');
+        fallingPiece.style.animationDuration = '0.5s';
+      }
+    });
+    ]]>
+  </script>
+</svg>
