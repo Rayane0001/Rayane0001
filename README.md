@@ -68,7 +68,8 @@
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Rayane0001&theme=react-dark&bg_color=20232a&hide_border=true" width="100%"/>
-</div
+</div>
+
 ---
 
 ## 👨‍💻 Featured Repositories
@@ -110,19 +111,11 @@
 
 ---
 
-## 🎮 Interactive Tetris Game!
-
 <div align="center">
 
-**Play a quick game while browsing my profile!**
-
-![Tetris Game](./tetris-game.svg)
-
-*Click START to play! Use A/D to move, S to drop, and click to rotate pieces.*
+<img src="./terminal.svg" alt="Terminal Animation" width="80%"/>
 
 </div>
-
----
 
 ## 📫 Let's Connect!
 
@@ -133,8 +126,6 @@
 **✨ Let's build something amazing together!**
 
 </div>
-
----
 
 <div align="center" width="100%">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&text=Thanks%20for%20visiting!&fontSize=24&fontAlignY=70&animation=twinkling" />
