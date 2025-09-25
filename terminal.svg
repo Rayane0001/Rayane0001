@@ -1,0 +1,91 @@
+<svg width="600" height="460" viewBox="0 0 600 460" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .terminal-bg { fill: #1a1a1a; stroke: #333; stroke-width: 2; }
+    .terminal-header { fill: #2d2d2d; }
+    .terminal-button { fill: #ff5f57; }
+    .terminal-button.yellow { fill: #ffbd2e; }
+    .terminal-button.green { fill: #28ca42; }
+    .terminal-title { font-family: 'Courier New', monospace; font-size: 12px; fill: #ccc; text-anchor: middle; }
+    .terminal-text { font-family: 'Courier New', monospace; font-size: 11px; fill: #00ff00; }
+    .prompt { fill: #00aaff; }
+    .command { fill: #ffffff; }
+    .ascii-art { fill: #ffaa00; white-space: pre; }
+
+    .line, .reload-command { opacity: 0; }
+    @keyframes appear { from { opacity: 0 } to { opacity: 1 } }
+
+    /* Timings for each line to appear */
+    .line1  { animation: appear 0.5s 0.6s  forwards; }
+    .line2  { animation: appear 0.5s 1.2s  forwards; }
+    .line3  { animation: appear 0.5s 1.8s  forwards; }
+    .line4  { animation: appear 0.5s 2.4s  forwards; }
+    .line5  { animation: appear 0.5s 3.0s  forwards; }
+    .line6  { animation: appear 0.5s 3.6s  forwards; }
+    .line7  { animation: appear 0.5s 4.2s  forwards; }
+    .line8  { animation: appear 0.5s 4.8s  forwards; }
+    .line9  { animation: appear 0.5s 5.4s  forwards; }
+    .line10 { animation: appear 0.5s 6.0s  forwards; }
+    .line11 { animation: appear 0.5s 6.6s  forwards; }
+    .line12 { animation: appear 0.5s 7.2s  forwards; }
+    .line13 { animation: appear 0.5s 7.8s  forwards; }
+    .line14 { animation: appear 0.5s 8.4s  forwards; }
+    .line15 { animation: appear 0.5s 9.0s  forwards; }
+    .line16 { animation: appear 0.5s 9.6s  forwards; }
+    .line17 { animation: appear 0.5s 10.2s forwards; }
+    .line18 { animation: appear 0.5s 10.8s forwards; }
+    .line19 { animation: appear 0.5s 11.4s forwards; }
+    .line20 { animation: appear 0.5s 12.0s forwards; }
+    
+    .reload-command {
+      animation: appear 0.5s 22s forwards; /* 12s (fin du script) + 10s (attente) */
+    }
+
+    /* MODIFICATION : Effacement et redémarrage instantanés */
+    .terminal-cycle { 
+      visibility: hidden; /* Démarrer caché */
+      animation: cycle-visibility 24s steps(1, end) infinite; 
+    }
+    @keyframes cycle-visibility {
+      0%   { visibility: visible; } /* Devient visible au début du cycle */
+      100% { visibility: hidden; }  /* Re-devient caché à la fin exacte */
+    }
+  </style>
+
+  <rect x="10" y="10" width="580" height="440" rx="8" class="terminal-bg"/>
+  <rect x="10" y="10" width="580" height="30" rx="8" class="terminal-header"/>
+  <rect x="10" y="25" width="580" height="15" class="terminal-header"/>
+  <circle cx="25" cy="25" r="6" class="terminal-button"/>
+  <circle cx="45" cy="25" r="6" class="terminal-button yellow"/>
+  <circle cx="65" cy="25" r="6" class="terminal-button green"/>
+  <text x="300" y="30" class="terminal-title">rayane@dev:~/projects</text>
+
+  <g transform="translate(20,65)" class="terminal-cycle">
+    <text x="0" y="15"  class="terminal-text prompt line line1">rayane@dev:~/projects$</text>
+    <text x="150" y="15" class="terminal-text command line line1">./show_cat.sh</text>
+    <text x="0" y="35"  class="terminal-text ascii-art line line2"><tspan><![CDATA[ _._      _,-'""`-._]]></tspan></text>
+    <text x="0" y="50"  class="terminal-text ascii-art line line3"><tspan><![CDATA[(,-.`._,'(       |\`-/|]]></tspan></text>
+    <text x="0" y="65"  class="terminal-text ascii-art line line4"><tspan><![CDATA[    `-.-' \ )-`( , o o)]]></tspan></text>
+    <text x="0" y="80"  class="terminal-text ascii-art line line5"><tspan><![CDATA[          `-    \`_`"'-]]></tspan></text>
+    <text x="0" y="105" class="terminal-text prompt line line6">rayane@dev:~/projects$</text>
+    <text x="150" y="105" class="terminal-text command line line6">./show_dog.sh</text>
+    <text x="0" y="125" class="terminal-text ascii-art line line7"><tspan><![CDATA[          __]]></tspan></text>
+    <text x="0" y="140" class="terminal-text ascii-art line line8"><tspan><![CDATA[(\,--------'()'--o]]></tspan></text>
+    <text x="0" y="155" class="terminal-text ascii-art line line9"><tspan><![CDATA[ (_   ___    /~"]]></tspan></text>
+    <text x="0" y="170" class="terminal-text ascii-art line line10"><tspan><![CDATA[  (_)_)  (_)_)] ]]></tspan></text>
+    <text x="0" y="195" class="terminal-text prompt line line11">rayane@dev:~/projects$</text>
+    <text x="150" y="195" class="terminal-text command line line11">./show_fish.sh</text>
+    <text x="0" y="215" class="terminal-text ascii-art line line12"><tspan><![CDATA[      /`·.¸]]></tspan></text>
+    <text x="0" y="230" class="terminal-text ascii-art line line13"><tspan><![CDATA[     /¸...¸`:·]]></tspan></text>
+    <text x="0" y="245" class="terminal-text ascii-art line line14"><tspan><![CDATA[ ¸.·´  ¸   `·.¸.·´)]]></tspan></text>
+    <text x="0" y="260" class="terminal-text ascii-art line line15"><tspan><![CDATA[: © ):´;     ¸  {]]></tspan></text>
+    <text x="0" y="275" class="terminal-text ascii-art line line16"><tspan><![CDATA[ `·.¸ `·  ¸.·´\`·¸)]]></tspan></text>
+    <text x="0" y="290" class="terminal-text ascii-art line line17"><tspan><![CDATA[      `\\´´\¸.·´]]></tspan></text>
+    <text x="0" y="315" class="terminal-text prompt line line18">rayane@dev:~/projects$</text>
+    <text x="150" y="315" class="terminal-text command line line18">echo "Check out my projects!"</text>
+    <text x="0" y="335" class="terminal-text line line19">Check out my projects!</text>
+
+    <text x="0" y="365" class="terminal-text prompt line line20">rayane@dev:~/projects$</text>
+    
+    <text x="150" y="365" class="terminal-text command reload-command">reload</text>
+  </g>
+</svg>
