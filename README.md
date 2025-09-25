@@ -22,7 +22,7 @@
  
 🔭 **3rd year Computer Science Student**
 
-🌱 Learning **Machine Learning** & **Full-Stack Development**
+🌱 Learning **Machine Learning, Data Science, AI, Software Engineering**
 
 👯 Open to collaborate on **innovative projects** & **hackathons**
 
