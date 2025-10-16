@@ -3,16 +3,17 @@
 <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=Rayane0001.Rayane0001" />
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&color=00D4FF&center=true&vCenter=true&width=600&height=70&duration=4000&lines=Full-Stack+Developer;Machine+Learning+Enthusiast;Problem+Solver;Always+Learning" />
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&color=00D4FF&center=true&vCenter=true&width=700&height=70&duration=3500&lines=Full-Stack+Developer;ML/Data/AI;Competitive+Programmer;Always+Learning+%26+Building" />
 </div>
 
-<h3 align="center">Computer Science Student from France 🇫🇷</h3>
+<h3 align="center">🎓 Computer Science Student @ Université de Lille 🇫🇷</h3>
 
 <div align="center">
   
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rayane-rousseau-595b82326/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://portfolio-rayane.vercel.app)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rousseau.rayane@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rayane0001)
 
 </div>
 
@@ -20,11 +21,9 @@
 
 <div align="center">
  
-🔭 **3rd year Computer Science Student**
+🚀 **Passionate about:** ML/Data/AI • Software Engineering • Competitive Programming
 
-🌱 Learning **Machine Learning, Data Science, AI, Software Engineering**
-
-👯 Open to collaborate on **innovative projects** & **hackathons**
+🌟 **Open to:** Innovative Projects • Hackathons • Collaboration
 
 </div>
 
@@ -34,22 +33,22 @@
 
 <div align="center">
 
-### Languages
+### 💻 Languages
 <img src="https://skillicons.dev/icons?i=python,java,kotlin,js,ts,c,php,html,css,haskell" />
 
-### Frameworks & Libraries
+### 🚀 Frameworks & Libraries
 <img src="https://skillicons.dev/icons?i=react,svelte,angular,laravel,flask,fastapi,nodejs,tailwind" />
 
-### AI/ML & Data Science
+### 🤖 AI/ML & Data Science
 <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn" />
 <br/>
 <code><img title="pandas" height="40" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/pandas.svg"></code>
 <code><img title="NumPy" height="40" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/numpy.svg"></code>
 
-### Databases
+### 🗄️ Databases
 <img src="https://skillicons.dev/icons?i=postgresql,mysql,sqlite,firebase,supabase" />
 
-### DevOps & Tools
+### 🛠️ DevOps & Tools
 <img src="https://skillicons.dev/icons?i=docker,git,gitlab,github,gradle,maven,linux,vscode" />
 
 </div>
