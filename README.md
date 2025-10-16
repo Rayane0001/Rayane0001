@@ -1,4 +1,4 @@
-# Hi there, I'm Rayane! 👋
+# Hi there, I'm Rayane! <img src="pikachu_waving.gif" alt="Pikachu Waving" width="50"/>
 
 <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=Rayane0001.Rayane0001" />
 
@@ -29,7 +29,7 @@
 
 ---
 
-## 🛠️ Tech Stack & Tools
+## Tech Stack & Tools <img src="skills.gif" alt="Skills" width="50"/>
 
 <div align="center">
 
@@ -55,7 +55,7 @@
 
 ---
 
-## ⚡ GitHub Stats
+## GitHub Stats <img src="stats.gif" alt="Stats" width="50"/>
 
 <div align="center">
   <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Rayane0001&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=10" alt="GitHub Stats" />
@@ -77,7 +77,7 @@
 
 ---
 
-## 👨‍💻 Featured Repositories
+## Check Some Repositories ! <img src="about_me.gif" alt="About Me" width="50"/>
 
 <div align="center">
   
