@@ -35,7 +35,7 @@
 <div align="center">
 
 ### Languages
-<img src="https://skillicons.dev/icons?i=python,java,kotlin,js,ts,c,php,html,css" />
+<img src="https://skillicons.dev/icons?i=python,java,kotlin,js,ts,c,php,html,css,haskell" />
 
 ### Frameworks & Libraries
 <img src="https://skillicons.dev/icons?i=react,svelte,angular,laravel,flask,fastapi,nodejs,tailwind" />
@@ -43,10 +43,8 @@
 ### AI/ML & Data Science
 <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn" />
 <br/>
-<code><img title="scikit-learn" height="40" src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg"></code>
 <code><img title="pandas" height="40" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/pandas.svg"></code>
 <code><img title="NumPy" height="40" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/numpy.svg"></code>
-<code><img title="LightGBM" height="40" src="https://lightgbm.readthedocs.io/en/latest/_static/LightGBM_logo_black_text.svg"></code>
 
 ### Databases
 <img src="https://skillicons.dev/icons?i=postgresql,mysql,sqlite,firebase,supabase" />
