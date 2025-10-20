@@ -125,7 +125,7 @@
 
 <div align="center">
 
-**🎯 Looking for:** Summer Internship (worldwide) & Apprenticeship in France (Paris/Lille)
+**🎯 Looking for:** Summer Internship (worldwide) & Apprenticeship in France
 
 **✨ Let's build something amazing together!**
 
